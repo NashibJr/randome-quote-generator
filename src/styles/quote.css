@@ -1,0 +1,56 @@
+body {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: century gothic;
+      background-image: linear-gradient(to right, orange, red);
+}
+.card {
+      border: none;
+      width: 50%;
+      padding: 20px;
+      margin: 10vh;
+      transform: translate(35%, 20%);
+      background-image: linear-gradient(to right, red 40%, yellow);
+      box-shadow: 0 0 0 2px red;
+      z-index: 1;
+}
+.content {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: stretch;
+}
+.content-width {
+      width: 40%;
+      margin: 20px;
+}
+.content-width:last-child {
+      box-shadow: 0 0 2px 2px black;
+      margin: 0;
+      padding: 15px;
+      z-index: 1;
+}
+.content-width:last-child p {
+      margin-bottom: 0;
+      margin-top: 20vh;
+}
+.content-width:first-child button {
+      border: none;
+      padding: 10px;
+      font-family: century gothic;
+      width: 85%;
+      background-image: linear-gradient(to left, red, yellow);
+      margin-bottom: 0;
+      margin-top: 10vh;
+      font-weight: bold;
+      outline: none;
+}
+.content-width:last-child q {
+      font-size: 1.2em;
+      font-weight: bolder;
+}
+.content-width:first-child button:focus {
+      box-shadow: 0 0 2px 2px black;
+}
